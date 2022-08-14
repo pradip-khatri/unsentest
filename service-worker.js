@@ -32,22 +32,22 @@ self.addEventListener('install', function (event) {
     //     '/unsentest/css/styles.css'
         
         .then(function(cache) {
-          cache.add('/');
-          cache.add('/service-worker.js'); //adding the necessary files to the cache so that app can run while offline
-          cache.add('/manifest.json');
-          cache.add('/index.html');
-          cache.add('/icon.png');
-          cache.add('/pages/add/index.html');
-          cache.add('/pages/add/scripts.js');
-          cache.add('/pages/add/styles.css');
-          cache.add('/pages/list/index.html');
-          cache.add('/pages/list/scripts.js');
-          cache.add('/pages/list/styles.css');
-          cache.add('/js/database.js');
-          cache.add('/js/scripts.js');
-          cache.add('/images/icon.png');
-          cache.add('/icons');
-          cache.add('/css/styles.css');
+          cache.add('/unsentest');
+          cache.add('/unsentest/service-worker.js'); //adding the necessary files to the cache so that app can run while offline
+          cache.add('/unsentest/manifest.json');
+          cache.add('/unsentest/index.html');
+          cache.add('/unsentest/icon.png');
+          cache.add('/unsentest/pages/add/index.html');
+          cache.add('/unsentest/pages/add/scripts.js');
+          cache.add('/unsentest/pages/add/styles.css');
+          cache.add('/unsentest/pages/list/index.html');
+          cache.add('/unsentest/pages/list/scripts.js');
+          cache.add('/unsentest/pages/list/styles.css');
+          cache.add('/unsentest/js/database.js');
+          cache.add('/unsentest/js/scripts.js');
+          cache.add('/unsentest/images/icon.png');
+          cache.add('/unsentest/icons');
+          cache.add('/unsentest/css/styles.css');
 
 
       })
