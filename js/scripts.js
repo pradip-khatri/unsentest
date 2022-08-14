@@ -4,7 +4,7 @@ const mydatabase = new Mydatabase();
 if ('serviceWorker' in navigator) {
   console.log("hello service worker");
   navigator.serviceWorker
-    .register('/unsentest/service-worker.js', {scope:'/unsentest/', type:'module'})
+    .register('/service-worker.js', {scope:'/unsentest', type:'module'})
     .catch(function (error) {
       console.log('Service Worker failed to register:', error);
     });
