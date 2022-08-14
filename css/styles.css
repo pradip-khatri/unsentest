@@ -1,0 +1,29 @@
+body{
+    background-color: antiquewhite;
+}
+.identity{
+  
+    text-align: center;
+
+}
+#main-menu{
+    /* display: inline; */
+    /* margin-right: 20px; */
+text-align: center;
+
+
+}
+.content{
+    text-align: center;
+}
+.notibtn{
+    /* display: grid;  */
+     /* align-items: center; */
+    /* justify-content: center; */
+    text-align: center;
+    margin: 100px;
+    padding: 100px;
+}
+#notification{
+    background-color:aquamarine;
+}

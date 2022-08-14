@@ -1,0 +1,78 @@
+/* filter */
+
+.music-filter {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.music-filter label {
+    display: block;
+    font-size: 15px;
+    line-height: 20px;
+    width: 100%;
+}
+
+.music-filter select {
+    width: 200px;
+    font-size: 19px;
+    padding: 5px 10px;
+    box-sizing: border-box;
+}
+
+.music-filter button {
+    font-size: 19px;
+    width: 120px;
+    height: 40px;
+    margin: 0 0 0 10px;
+}
+
+
+/* Items */
+
+.music-item {
+    background-color: #fff;
+    padding: 15px;
+    border: solid 1px #aaa;
+    margin-top: 10px;
+}
+
+.music-item span {
+    color: #777;
+    font-size: 19px;
+    font-weight: normal;
+    margin-top: 10px;
+}
+
+.music-item h3 {
+    color: #008080;
+    font-size: 26px;
+    margin: 0;
+    padding: 0;
+}
+#editUserDetailContainer{
+    visibility: hidden;
+
+}
+
+.music-item div {
+    color: #333;
+    font-size: 19px;
+    margin: 10px 0;
+}
+
+.music-item div b {
+    font-size: 17px;
+}
+
+
+/* Button */
+
+.music-item button {
+    display: inline-block;
+    font-size: 17px;
+    width: 160px;
+    height: 40px;
+    margin: 0 10px 0 0;
+}
+
+
