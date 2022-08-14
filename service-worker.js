@@ -12,50 +12,50 @@ self.addEventListener('install', function (event) {
   self.skipWaiting();
   event.waitUntil(
     caches.open('mycaches')
-    // .then(function(cache){
-    //   cache.addAll([
-    //     '/unsentest',
-    //     '/unsentest/service-worker.js',
-    //     '/unsentest/manifest.json',
-    //     '/unsentest/index.html',
-    //     '/unsentest/icon.png',
-    //     '/unsentest/pages/add/index.html',
-    //     '/unsentest/pages/add/scripts.js',
-    //     '/unsentest/pages/add/styles.css',
-    //     '/unsentest/pages/list/index.html',
-    //     '/unsentest/pages/list/scripts.js',
-    //     '/unsentest/pages/list/styles.css',
-    //     '/unsentest/js/database.js',
-    //     '/unsentest/js/scripts.js',
-    //     '/unsentest/images/icon.png',
-    //     '/unsentest/icons',
-    //     '/unsentest/css/styles.css'
+    .then(function(cache){
+      cache.addAll([
+        '/unsentest/',
+        '/unsentest/service-worker.js',
+        '/unsentest/manifest.json',
+        '/unsentest/index.html',
+        '/unsentest/icon.png',
+        '/unsentest/pages/add/index.html',
+        '/unsentest/pages/add/scripts.js',
+        '/unsentest/pages/add/styles.css',
+        '/unsentest/pages/list/index.html',
+        '/unsentest/pages/list/scripts.js',
+        '/unsentest/pages/list/styles.css',
+        '/unsentest/js/database.js',
+        '/unsentest/js/scripts.js',
+        '/unsentest/images/icon.png',
+        '/unsentest/icons',
+        '/unsentest/css/styles.css'
         
-        .then(function(cache) {
-          cache.add('/unsentest');
-          cache.add('/unsentest/service-worker.js'); //adding the necessary files to the cache so that app can run while offline
-          cache.add('/unsentest/manifest.json');
-          cache.add('/unsentest/index.html');
-          cache.add('/unsentest/icon.png');
-          cache.add('/unsentest/pages/add/index.html');
-          cache.add('/unsentest/pages/add/scripts.js');
-          cache.add('/unsentest/pages/add/styles.css');
-          cache.add('/unsentest/pages/list/index.html');
-          cache.add('/unsentest/pages/list/scripts.js');
-          cache.add('/unsentest/pages/list/styles.css');
-          cache.add('/unsentest/js/database.js');
-          cache.add('/unsentest/js/scripts.js');
-          cache.add('/unsentest/images/icon.png');
-          cache.add('/unsentest/icons');
-          cache.add('/unsentest/css/styles.css');
+      //   .then(function(cache) {
+      //     cache.add('/unsentest');
+      //     cache.add('/unsentest/service-worker.js'); //adding the necessary files to the cache so that app can run while offline
+      //     cache.add('/unsentest/manifest.json');
+      //     cache.add('/unsentest/index.html');
+      //     cache.add('/unsentest/icon.png');
+      //     cache.add('/unsentest/pages/add/index.html');
+      //     cache.add('/unsentest/pages/add/scripts.js');
+      //     cache.add('/unsentest/pages/add/styles.css');
+      //     cache.add('/unsentest/pages/list/index.html');
+      //     cache.add('/unsentest/pages/list/scripts.js');
+      //     cache.add('/unsentest/pages/list/styles.css');
+      //     cache.add('/unsentest/js/database.js');
+      //     cache.add('/unsentest/js/scripts.js');
+      //     cache.add('/unsentest/images/icon.png');
+      //     cache.add('/unsentest/icons');
+      //     cache.add('/unsentest/css/styles.css');
 
 
-      })
+      // })
 
 
 
-     // ]);
-  //  })
+      ]);
+    })
   );
 
 
