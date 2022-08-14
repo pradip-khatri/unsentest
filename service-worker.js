@@ -14,22 +14,22 @@ self.addEventListener('install', function (event) {
     caches.open('mycaches')
     .then(function(cache){
       cache.addAll([
-        '/',
-        '/service-worker.js',
-        '/manifest.json',
-        '/index.html',
-        '/icon.png',
-        '/pages/add/index.html',
-        '/pages/add/scripts.js',
-        '/pages/add/styles.css',
-        '/pages/list/index.html',
-        '/pages/list/scripts.js',
-        '/pages/list/styles.css',
-        '/js/database.js',
-        '/js/scripts.js',
-        '/images/icon.png',
+        '/unsentest/',
+        '/unsentest/service-worker.js',
+        '/unsentest/manifest.json',
+        '/unsentest/index.html',
+        '/unsentest/icon.png',
+        '/unsentest/pages/add/index.html',
+        '/unsentest/pages/add/scripts.js',
+        '/unsentest/pages/add/styles.css',
+        '/unsentest/pages/list/index.html',
+        '/unsentest/pages/list/scripts.js',
+        '/unsentest/pages/list/styles.css',
+        '/unsentest/js/database.js',
+        '/unsentest/js/scripts.js',
+        '/unsentest/images/icon.png',
    //     '/icons',
-        '/css/styles.css'
+        '/unsentest/css/styles.css'
         
       //   .then(function(cache) {
       //     cache.add('/unsentest');
